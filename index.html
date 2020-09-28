@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Image Mapping</title>
+  <style>
+    h1, p {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Solar System</h1>
+  <p>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it,
+    either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the
+    eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies.
+    Our solar system consists of our star, the Sun, and everything bound to it by gravity —
+    the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets
+    such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids.
+  </p>
+  <center>
+    <img src="solar_system.jpg" alt="solar_system_image" usemap="#solarsystem" width="748" height="468">
+  </center>
+  <map name="solarsystem">
+    <area shape="circle" coords="96, 14, 10" href="planets/pluto.html" alt="Pluto">
+    <area shape="circle" coords="140, 42, 20" href="planets/neptune.html" alt="Neptune">
+    <area shape="circle" coords="202, 76, 22" href="planets/uranus.html" alt="Uranus">
+    <area shape="circle" coords="275, 118, 28" href="planets/saturn.html" alt="Saturn">
+    <area shape="circle" coords="368, 163, 35" href="planets/jupiter.html" alt="Jupiter">
+    <area shape="circle" coords="463, 148, 15" href="planets/mars.html" alt="Mars">
+    <area shape="circle" coords="501, 183, 16" href="planets/earth.html" alt="Earth">
+    <area shape="circle" coords="555, 212, 16" href="planets/venus.html" alt="Venus">
+    <area shape="circle" coords="607, 235, 11" href="planets/mercury.html" alt="Mercury">
+    <area shape="circle" coords="744, 197, 60" href="planets/sun.html" alt="Sun">
+  </map>
+</body>
+
+</html>
